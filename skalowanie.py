@@ -67,7 +67,7 @@ print(mean2-mean1)
 
 difference = bigger_img - img
 
-cv2.imshow('Image', img)
+cv2.imshow('Original Image', img)
 cv2.imshow('Smaller image', smaller_img)
 cv2.imshow('Bigger image', bigger_img)
 cv2.imshow('Image difference', difference)
